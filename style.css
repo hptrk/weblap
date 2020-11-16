@@ -1,4 +1,10 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+  }
 
 body{
     height: 100%;
@@ -11,3 +17,122 @@ body{
     margin: 0;
     transition: 0.2 linear;
     color:White;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-bottom: 13px;
+    margin-top: 13px;
+    font-family: "book antiqua";
+    margin-right: 20px; 
+    
+  }
+  
+  .jobboldal {
+    float: right;
+    overflow: hidden;
+    margin-top:13px;
+    margin-right:30px;
+    font-family: "book antiqua";
+  }
+  
+ 
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #b3b3cc;
+  }
+  
+  
+  .kezdolap{
+    text-shadow: 2px 2px grey;
+    margin-right:75px !important;
+}
+
+
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+    margin:0px auto;
+}
+.tg td{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+.tg th{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+  font-weight:normal;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+.tg .tg-9x2z{
+    background-color: #b3b3cc;
+    border-color:#ffffff;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+  font-size:16px;
+  text-align:center;
+  vertical-align:middle
+}
+.tg .tg-c3ow{
+    border-color:inherit;
+    text-align:center;
+    vertical-align:top
+}
+.tg .tg-9b6b{
+    background-color: #b3b3cc;
+    border-color:#ffffff;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+  font-size:16px;
+  text-align:left;
+  vertical-align:top
+}
+.tg .tg-ywju{
+    background-color: #b3b3cc;
+    border-color:#ffffff;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+  font-size:16px;
+  font-weight:bold;
+  text-align:center;
+  vertical-align:top
+}
+.tg .tg-h4jf{
+    background-color: #b3b3cc;
+    border-color:#ffffff;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+  font-size:16px;
+  text-align:center;
+  vertical-align:top
+}
+@media screen and (max-width: 767px) {
+    .tg {width: auto !important;}
+    .tg col {width: auto !important;}
+    .tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}
+
+    #hely{
+        height: 100px;
+    }
+
+.szoveg{
+    width: 600px;
+    margin: 20px;
+}
