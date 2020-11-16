@@ -1,0 +1,13 @@
+
+
+body{
+    height: 100%;
+    weight: 100%;
+    background-color: #42455a;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: 0.2 linear;
+    color:White;
