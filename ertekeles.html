@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
     crossorigin="anonymous">
+    <link rel="icon" href="icon.png" type="image/icon type">
 </head>
 <body>    
     <div class="navbar">
@@ -23,7 +24,15 @@
           </div>
         </div> 
       </div>
-    
+      <div class="media-body tm-service-text">
+        <form>
+        <p id="ertekeles">Gyakorlati pontok száma: <input type="number" name="szam1" min="0" max="120"></p>
+        <br>
+        <p id="ertekeles">Szóbeli pontok száma: <input type="number" name="szam2" min="0" max="30" ></p>
+        <br>
+        <p id="ertekeles">Összesen: <input type="number" name="osszeg"><br></p>
+        <input type="button" value="Összead" onclick="Szamolas()" class="gomb">
+        </form>
       
  </body>
 </html>

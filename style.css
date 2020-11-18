@@ -164,3 +164,15 @@ body{
   font-size: 25px;
   margin-left: 600px;
 }
+
+#ertekeles{
+  font-size: 25px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.gomb{
+  margin-top:40px;
+  font-size: 25px;
+  margin-left: 25px;
+}
